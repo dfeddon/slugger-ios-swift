@@ -1,8 +1,8 @@
 //
 //  main.swift
-//  Slugger
+//  Scriptwriter
 //
-//  Created by Derek Feddon on 6/4/14.
+//  Created by Derek Feddon on 6/10/14.
 //  Copyright (c) 2014 Derek Feddon. All rights reserved.
 //
 

@@ -1,14 +1,14 @@
 //
-//  SluggerTests.swift
-//  SluggerTests
+//  ScriptwriterTests.swift
+//  ScriptwriterTests
 //
-//  Created by Derek Feddon on 6/4/14.
+//  Created by Derek Feddon on 6/10/14.
 //  Copyright (c) 2014 Derek Feddon. All rights reserved.
 //
 
 import XCTest
 
-class SluggerTests: XCTestCase {
+class ScriptwriterTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

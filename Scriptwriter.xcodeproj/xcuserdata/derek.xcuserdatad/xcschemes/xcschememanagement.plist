@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Slugger.xcscheme</key>
+		<key>Scriptwriter.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>658CD7AE193FAFC900C10AD2</key>
+		<key>65DE02DF194760DA008BA5BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>658CD7C6193FAFC900C10AD2</key>
+		<key>65DE02F4194760DA008BA5BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651BA0311949120000616E7F /* DocWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651BA0301949120000616E7F /* DocWindowController.swift */; };
+		65C37B5D194A751800263C3E /* ScriptElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C37B5C194A751800263C3E /* ScriptElement.swift */; };
+		65C37B5F194AB16700263C3E /* ScriptTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C37B5E194AB16700263C3E /* ScriptTextView.swift */; };
+		65C37B61194B88C500263C3E /* ThreadsOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C37B60194B88C500263C3E /* ThreadsOutlineView.swift */; };
+		65C37B63194BC46600263C3E /* ThreadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C37B62194BC46600263C3E /* ThreadsViewController.swift */; };
+		65C37B65194BD31400263C3E /* ThreadsOutlineDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C37B64194BD31400263C3E /* ThreadsOutlineDatasource.swift */; };
+		65DE02E6194760DA008BA5BC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DE02E5194760DA008BA5BC /* main.swift */; };
+		65DE02E8194760DA008BA5BC /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DE02E7194760DA008BA5BC /* Document.swift */; };
+		65DE02EB194760DA008BA5BC /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65DE02E9194760DA008BA5BC /* Document.xib */; };
+		65DE02ED194760DA008BA5BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65DE02EC194760DA008BA5BC /* Images.xcassets */; };
+		65DE02F0194760DA008BA5BC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65DE02EE194760DA008BA5BC /* MainMenu.xib */; };
+		65DE02FC194760DA008BA5BC /* ScriptwriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DE02FB194760DA008BA5BC /* ScriptwriterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65DE02F6194760DA008BA5BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65DE02D8194760DA008BA5BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65DE02DF194760DA008BA5BC;
+			remoteInfo = Scriptwriter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		651BA0301949120000616E7F /* DocWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocWindowController.swift; sourceTree = "<group>"; };
+		65C37B5C194A751800263C3E /* ScriptElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptElement.swift; sourceTree = "<group>"; };
+		65C37B5E194AB16700263C3E /* ScriptTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScriptTextView.swift; sourceTree = "<group>"; };
+		65C37B60194B88C500263C3E /* ThreadsOutlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadsOutlineView.swift; sourceTree = "<group>"; };
+		65C37B62194BC46600263C3E /* ThreadsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadsViewController.swift; sourceTree = "<group>"; };
+		65C37B64194BD31400263C3E /* ThreadsOutlineDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadsOutlineDatasource.swift; sourceTree = "<group>"; };
+		65DE02E0194760DA008BA5BC /* Scriptwriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scriptwriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DE02E4194760DA008BA5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DE02E5194760DA008BA5BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		65DE02E7194760DA008BA5BC /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		65DE02EA194760DA008BA5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		65DE02EC194760DA008BA5BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65DE02EF194760DA008BA5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		65DE02F5194760DA008BA5BC /* ScriptwriterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScriptwriterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DE02FA194760DA008BA5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65DE02FB194760DA008BA5BC /* ScriptwriterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptwriterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65DE02DD194760DA008BA5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DE02F2194760DA008BA5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65DE02D7194760DA008BA5BC = {
+			isa = PBXGroup;
+			children = (
+				65DE02E2194760DA008BA5BC /* Scriptwriter */,
+				65DE02F8194760DA008BA5BC /* ScriptwriterTests */,
+				65DE02E1194760DA008BA5BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65DE02E1194760DA008BA5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65DE02E0194760DA008BA5BC /* Scriptwriter.app */,
+				65DE02F5194760DA008BA5BC /* ScriptwriterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65DE02E2194760DA008BA5BC /* Scriptwriter */ = {
+			isa = PBXGroup;
+			children = (
+				65DE02E7194760DA008BA5BC /* Document.swift */,
+				65C37B5E194AB16700263C3E /* ScriptTextView.swift */,
+				65C37B5C194A751800263C3E /* ScriptElement.swift */,
+				65DE02E9194760DA008BA5BC /* Document.xib */,
+				65C37B64194BD31400263C3E /* ThreadsOutlineDatasource.swift */,
+				65C37B62194BC46600263C3E /* ThreadsViewController.swift */,
+				65C37B60194B88C500263C3E /* ThreadsOutlineView.swift */,
+				65DE02EC194760DA008BA5BC /* Images.xcassets */,
+				65DE02EE194760DA008BA5BC /* MainMenu.xib */,
+				65DE02E3194760DA008BA5BC /* Supporting Files */,
+				651BA0301949120000616E7F /* DocWindowController.swift */,
+			);
+			path = Scriptwriter;
+			sourceTree = "<group>";
+		};
+		65DE02E3194760DA008BA5BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65DE02E4194760DA008BA5BC /* Info.plist */,
+				65DE02E5194760DA008BA5BC /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65DE02F8194760DA008BA5BC /* ScriptwriterTests */ = {
+			isa = PBXGroup;
+			children = (
+				65DE02FB194760DA008BA5BC /* ScriptwriterTests.swift */,
+				65DE02F9194760DA008BA5BC /* Supporting Files */,
+			);
+			path = ScriptwriterTests;
+			sourceTree = "<group>";
+		};
+		65DE02F9194760DA008BA5BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65DE02FA194760DA008BA5BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65DE02DF194760DA008BA5BC /* Scriptwriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DE02FF194760DA008BA5BC /* Build configuration list for PBXNativeTarget "Scriptwriter" */;
+			buildPhases = (
+				65DE02DC194760DA008BA5BC /* Sources */,
+				65DE02DD194760DA008BA5BC /* Frameworks */,
+				65DE02DE194760DA008BA5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scriptwriter;
+			productName = Scriptwriter;
+			productReference = 65DE02E0194760DA008BA5BC /* Scriptwriter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65DE02F4194760DA008BA5BC /* ScriptwriterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65DE0302194760DA008BA5BC /* Build configuration list for PBXNativeTarget "ScriptwriterTests" */;
+			buildPhases = (
+				65DE02F1194760DA008BA5BC /* Sources */,
+				65DE02F2194760DA008BA5BC /* Frameworks */,
+				65DE02F3194760DA008BA5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65DE02F7194760DA008BA5BC /* PBXTargetDependency */,
+			);
+			name = ScriptwriterTests;
+			productName = ScriptwriterTests;
+			productReference = 65DE02F5194760DA008BA5BC /* ScriptwriterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65DE02D8194760DA008BA5BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Derek Feddon";
+				TargetAttributes = {
+					65DE02DF194760DA008BA5BC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					65DE02F4194760DA008BA5BC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 65DE02DF194760DA008BA5BC;
+					};
+				};
+			};
+			buildConfigurationList = 65DE02DB194760DA008BA5BC /* Build configuration list for PBXProject "Scriptwriter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65DE02D7194760DA008BA5BC;
+			productRefGroup = 65DE02E1194760DA008BA5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65DE02DF194760DA008BA5BC /* Scriptwriter */,
+				65DE02F4194760DA008BA5BC /* ScriptwriterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65DE02DE194760DA008BA5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE02EB194760DA008BA5BC /* Document.xib in Resources */,
+				65DE02ED194760DA008BA5BC /* Images.xcassets in Resources */,
+				65DE02F0194760DA008BA5BC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DE02F3194760DA008BA5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65DE02DC194760DA008BA5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C37B5F194AB16700263C3E /* ScriptTextView.swift in Sources */,
+				65C37B61194B88C500263C3E /* ThreadsOutlineView.swift in Sources */,
+				65DE02E8194760DA008BA5BC /* Document.swift in Sources */,
+				65C37B5D194A751800263C3E /* ScriptElement.swift in Sources */,
+				65DE02E6194760DA008BA5BC /* main.swift in Sources */,
+				65C37B63194BC46600263C3E /* ThreadsViewController.swift in Sources */,
+				651BA0311949120000616E7F /* DocWindowController.swift in Sources */,
+				65C37B65194BD31400263C3E /* ThreadsOutlineDatasource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65DE02F1194760DA008BA5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE02FC194760DA008BA5BC /* ScriptwriterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65DE02F7194760DA008BA5BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65DE02DF194760DA008BA5BC /* Scriptwriter */;
+			targetProxy = 65DE02F6194760DA008BA5BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65DE02E9194760DA008BA5BC /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DE02EA194760DA008BA5BC /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		65DE02EE194760DA008BA5BC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65DE02EF194760DA008BA5BC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65DE02FD194760DA008BA5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65DE02FE194760DA008BA5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		65DE0300194760DA008BA5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Scriptwriter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		65DE0301194760DA008BA5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Scriptwriter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		65DE0303194760DA008BA5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scriptwriter.app/Contents/MacOS/Scriptwriter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScriptwriterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		65DE0304194760DA008BA5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Scriptwriter.app/Contents/MacOS/Scriptwriter";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScriptwriterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65DE02DB194760DA008BA5BC /* Build configuration list for PBXProject "Scriptwriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DE02FD194760DA008BA5BC /* Debug */,
+				65DE02FE194760DA008BA5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65DE02FF194760DA008BA5BC /* Build configuration list for PBXNativeTarget "Scriptwriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DE0300194760DA008BA5BC /* Debug */,
+				65DE0301194760DA008BA5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65DE0302194760DA008BA5BC /* Build configuration list for PBXNativeTarget "ScriptwriterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65DE0303194760DA008BA5BC /* Debug */,
+				65DE0304194760DA008BA5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65DE02D8194760DA008BA5BC /* Project object */;
+}

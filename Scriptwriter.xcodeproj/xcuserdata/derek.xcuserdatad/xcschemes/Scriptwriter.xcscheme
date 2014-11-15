@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "658CD7AE193FAFC900C10AD2"
-               BuildableName = "Slugger.app"
-               BlueprintName = "Slugger"
-               ReferencedContainer = "container:Slugger.xcodeproj">
+               BlueprintIdentifier = "65DE02DF194760DA008BA5BC"
+               BuildableName = "Scriptwriter.app"
+               BlueprintName = "Scriptwriter"
+               ReferencedContainer = "container:Scriptwriter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "658CD7C6193FAFC900C10AD2"
-               BuildableName = "SluggerTests.xctest"
-               BlueprintName = "SluggerTests"
-               ReferencedContainer = "container:Slugger.xcodeproj">
+               BlueprintIdentifier = "65DE02F4194760DA008BA5BC"
+               BuildableName = "ScriptwriterTests.xctest"
+               BlueprintName = "ScriptwriterTests"
+               ReferencedContainer = "container:Scriptwriter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "658CD7AE193FAFC900C10AD2"
-            BuildableName = "Slugger.app"
-            BlueprintName = "Slugger"
-            ReferencedContainer = "container:Slugger.xcodeproj">
+            BlueprintIdentifier = "65DE02DF194760DA008BA5BC"
+            BuildableName = "Scriptwriter.app"
+            BlueprintName = "Scriptwriter"
+            ReferencedContainer = "container:Scriptwriter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "658CD7AE193FAFC900C10AD2"
-            BuildableName = "Slugger.app"
-            BlueprintName = "Slugger"
-            ReferencedContainer = "container:Slugger.xcodeproj">
+            BlueprintIdentifier = "65DE02DF194760DA008BA5BC"
+            BuildableName = "Scriptwriter.app"
+            BlueprintName = "Scriptwriter"
+            ReferencedContainer = "container:Scriptwriter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "658CD7AE193FAFC900C10AD2"
-            BuildableName = "Slugger.app"
-            BlueprintName = "Slugger"
-            ReferencedContainer = "container:Slugger.xcodeproj">
+            BlueprintIdentifier = "65DE02DF194760DA008BA5BC"
+            BuildableName = "Scriptwriter.app"
+            BlueprintName = "Scriptwriter"
+            ReferencedContainer = "container:Scriptwriter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
